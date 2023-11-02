@@ -1,38 +1,49 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Капитан Кастет</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         /* Стили для страницы */
         body {
             font-family: Arial, sans-serif;
-            background-color: #0099cc; /* Голубой цвет, как море */
+            background-color: #0099cc;
+            /* Голубой цвет, как море */
             margin: 0;
             padding: 0;
         }
+
         header {
-            background-color: #002855; /* Темно-синий цвет, как ночное море */
+            background-color: #002855;
+            /* Темно-синий цвет, как ночное море */
             color: #fff;
             text-align: center;
             padding: 20px;
         }
+
         h1 {
             font-size: 36px;
         }
+
         nav {
-            background-color: #004488; /* Голубой цвет для навигации */
+            background-color: #004488;
+            /* Голубой цвет для навигации */
             padding: 10px;
             text-align: center;
         }
+
         nav a {
             color: #fff;
             text-decoration: none;
             margin: 10px;
         }
+
         nav a:hover {
             text-decoration: underline;
         }
+
         section {
             margin: 20px;
             padding: 20px;
@@ -40,28 +51,65 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
+
         footer {
-            background-color: #002855; /* Темно-синий цвет для нижнего колонтитула */
+            background-color: #002855;
+            /* Темно-синий цвет для нижнего колонтитула */
             color: #fff;
             text-align: center;
             padding: 10px;
         }
+
+        /* Медиа-запросы для адаптации к мобильным устройствам */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            section {
+                margin: 10px;
+                padding: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 18px;
+            }
+
+            nav {
+                padding: 5px;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+        }
     </style>
 </head>
+
 <body>
-    <header>
-        <h1>Добро пожаловать на домашнюю страницу Капитана Кастета</h1>
-    </header>
-  
-    <section>
-        <h2>Обо мне:</h2>
-        <p>Меня зовут Капитан Кастет, и я обожаю сладкое. Жизнь моя прошла в удивительных местах, включая огромную рыбу, где я нашел свой дом. Многие считают меня нелепым, но что они знают? Моя страсть к сладостям привела меня в самые странные ситуации. Жизнь, как конфетка в розовой упаковке: никогда не знаешь, что внутри.</p>
-    </section>
+    <div class="t-cover" id="recorddiv661108880">
+        <header>
+            <h1>Добро пожаловать на домашнюю страницу Капитана Кастета</h1>
+        </header>
+
+        <section>
+            <h2>Обо мне:</h2>
+            <p>Меня зовут Капитан Кастет, и я обожаю сладкое. Жизнь моя прошла в удивительных местах, включая огромную
+                рыбу, где я нашел свой дом. Многие считают меня нелепым, но что они знают? Моя страсть к сладостям
+                привела меня в самые странные ситуации. Жизнь, как конфетка в розовой упаковке: никогда не знаешь, что
+                внутри.</p>
+        </section>
+    </div>
+
+    <div class="t-foto" id="recorddiv6611088340">
+        <img src="a2879536359_10.jpg" style="display: block; margin: 0 auto;">
+    </div>
+
     <footer>
         &copy; Домашняя страница Капитана Кастета
     </footer>
-    </body>
-	<img src="a2879536359_10.jpg">,
-    </body>
 </body>
+
 </html>
